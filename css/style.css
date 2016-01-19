@@ -498,14 +498,14 @@ header {
 	height:60px;
 	margin:0 auto;
 	background-repeat:no-repeat;
-	background-position:0 -60px;
+	background-position:0 0px;
 	background-size:100% auto;
 	-webkit-background-size:100% auto;
 	transition: transform 0.2s ease-in-out; 
 	-webkit-transition: -webkit-transform 0.2s ease-in-out;
 }
-.aboutChurch .nav-tabs li a.i1 i {background-image:url(../images/i1.png);}
-.aboutChurch .nav-tabs li a.i2 i {background-image:url(../images/i2.png);}
+.aboutChurch .nav-tabs li a.i1 i {background-image:url(../images/i1.gif);}
+.aboutChurch .nav-tabs li a.i2 i {background-image:url(../images/i2.jpg);}
 .aboutChurch .nav-tabs li a.i3 i {background-image:url(../images/i3.png);}
 .aboutChurch .nav-tabs li a.i4 i {background-image:url(../images/i4.png);}
 .aboutChurch .nav-tabs li a.i5 i {background-image:url(../images/i5.png);}
@@ -588,15 +588,15 @@ header {
 	height:60px;
 	margin:0 auto;
 	background-repeat:no-repeat;
-	background-position:0 -60px;
+	background-position:0 0px;
 	background-size:100% auto;
 	-webkit-background-size:100% auto;
 	transition: transform 0.2s ease-in-out; 
 	-webkit-transition: -webkit-transform 0.2s ease-in-out;
 }
-.aboutPriest .nav-tabs li a.i1 i {background-image:url(../images/i1.png);}
-.aboutPriest .nav-tabs li a.i2 i {background-image:url(../images/i2.png);}
-.aboutPriest .nav-tabs li a.i3 i {background-image:url(../images/i3.png);}
+.aboutPriest .nav-tabs li a.i1 i {background-image:url(../images/priesti0.jpg);}
+.aboutPriest .nav-tabs li a.i2 i {background-image:url(../images/i3.png);}
+.aboutPriest .nav-tabs li a.i3 i {background-image:url(../images/i4.png);}
 .aboutPriest .nav-tabs li a.i4 i {background-image:url(../images/i4.png);}
 .aboutPriest .nav-tabs li a.i5 i {background-image:url(../images/i5.png);}
 .aboutPriest .nav-tabs li a.i6 i {background-image:url(../images/i6.png);}
@@ -621,7 +621,7 @@ header {
 }
 
 .nav-tabs li a:hover i {
-	background-position:0 -120px;
+	background-position:0 0px;
 	transform:translateY(-10px);
 	-o-transform:translateY(-10px);
 	-ms-transform:translateY(-10px);
