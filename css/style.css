@@ -419,7 +419,7 @@ header {
 /*-----------------------------------------------------------------------------------*/
 #aboutPriest,#aboutChurch {padding-top:50px;}
 
-#aboutPriest {background-color: lightblue;}
+#aboutPriest {background-color: rgb(14,180,147);}
 
 /* __________ About Church __________ */
 .aboutChurch {
@@ -505,8 +505,8 @@ header {
 	-webkit-transition: -webkit-transform 0.2s ease-in-out;
 }
 .aboutChurch .nav-tabs li a.i1 i {background-image:url(../images/i1.gif);}
-.aboutChurch .nav-tabs li a.i2 i {background-image:url(../images/i2.jpg);}
-.aboutChurch .nav-tabs li a.i3 i {background-image:url(../images/i3.png);}
+.aboutChurch .nav-tabs li a.i2 i {background-image:url(../images/i2.gif);}
+.aboutChurch .nav-tabs li a.i3 i {background-image:url(../images/i3.gif);}
 .aboutChurch .nav-tabs li a.i4 i {background-image:url(../images/i4.png);}
 .aboutChurch .nav-tabs li a.i5 i {background-image:url(../images/i5.png);}
 .aboutChurch .nav-tabs li a.i6 i {background-image:url(../images/i6.png);}
@@ -539,7 +539,7 @@ header {
 	font-weight:300;
 	line-height:25px;
 	font-size:15px;
-	color:black;
+	color:#FFF;
 }
 .aboutPriest .tab-pane {
 	display:block;
@@ -594,8 +594,8 @@ header {
 	transition: transform 0.2s ease-in-out; 
 	-webkit-transition: -webkit-transform 0.2s ease-in-out;
 }
-.aboutPriest .nav-tabs li a.i1 i {background-image:url(../images/priesti0.jpg);}
-.aboutPriest .nav-tabs li a.i2 i {background-image:url(../images/i3.png);}
+.aboutPriest .nav-tabs li a.i1 i {background-image:url(../images/priest0.gif);}
+.aboutPriest .nav-tabs li a.i2 i {background-image:url(../images/i3.gif);}
 .aboutPriest .nav-tabs li a.i3 i {background-image:url(../images/i4.png);}
 .aboutPriest .nav-tabs li a.i4 i {background-image:url(../images/i4.png);}
 .aboutPriest .nav-tabs li a.i5 i {background-image:url(../images/i5.png);}
@@ -603,21 +603,21 @@ header {
 
 .aboutChurch .nav-tabs li a:hover,
 .aboutChurch .nav-tabs li a:focus {
-	background-color:lightblue;
+	background-color:rgb(14,180,147);
 }
-.aboutChurch .nav-tabs li.active a:hover,
+.aboutChurch .nav-tabs li.active a,.aboutChurch .nav-tabs li.active a:hover,
 .aboutChurch .nav-tabs li.active a:focus {
-	background-color:lightblue;
+	background-color:rgb(14,180,147);
 }
 
 .aboutPriest .nav-tabs li a:hover,
 .aboutPriest .nav-tabs li a:focus {
-	background-color:#9FA7AD;
+	background-color:#FFF;
 }
 .aboutPriest .nav-tabs li.active a,
 .aboutPriest .nav-tabs li.active a:hover,
 .aboutPriest .nav-tabs li.active a:focus {
-	background-color:#9FA7AD;
+	background-color:#FFF;
 }
 
 .nav-tabs li a:hover i {
@@ -1936,7 +1936,7 @@ input[type="color"]:focus {
 	.aboutChurch .nav-tabs li a ,.aboutPriest .nav-tabs li a{width:120px; height:120px; padding-top:24px;}
 	.aboutChurch .nav-tabs li a i,.aboutPriest .nav-tabs li a i {width:45px; height:45px;}
 	.aboutChurch .nav-tabs li a span,.aboutPriest .nav-tabs li a span {font-size:13px;}
-	.aboutChurch .nav-tabs li a i,.aboutPriest .nav-tabs li a i {background-position:0 -45px;}
+	.aboutChurch .nav-tabs li a i,.aboutPriest .nav-tabs li a i {background-position:0 0px;}
 	.nav-tabs li a:hover i {background-position:0 -90px; transform:translateY(-5px); -o-transform:translateY(-5px); -ms-transform:translateY(-5px); -webkit-transform:translateY(-5px);}
 	.nav-tabs li.active a i {background-position:0 0; transform:translateY(-10px); -o-transform:translateY(-10px); -ms-transform:translateY(-10px); -webkit-transform:translateY(-10px);}
 	

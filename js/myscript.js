@@ -7,6 +7,12 @@ window.jQuery = window.$ = jQuery;
 /*-----------------------------------------------------------------------------------*/
 jQuery(window).load(function () {
 	$('html, body').animate({scrollTop: 0}, 1000);
+	var homeHeight = $("#home").height();
+	//var homeWidth = $("#home").width();
+	$("#aboutChurch").css({"height":homeHeight+"px"});
+	$("#aboutPriest").css({"height":homeHeight+"px"});
+	$("#churchTab").css({"position":"absolute","top":homeHeight/1.64+"px"});
+	$("#priestTab").css({"position":"absolute","top":homeHeight/1.64+"px"});
 	//Preloader
 	setTimeout("jQuery('#preloader').animate({'opacity' : '0'},300,function(){jQuery('#preloader').hide()})",800);
 	setTimeout("jQuery('.preloader_hide, .selector_open').animate({'opacity' : '1'},500)",800);
@@ -20,6 +26,11 @@ jQuery(window).load(function () {
 /*	NICESCROLL
 /*-----------------------------------------------------------------------------------*/
 jQuery(document).ready(function() {
+	var homeHeight = $("#home").height();
+	//var homeWidth = $("#home").width();
+	$("#aboutChurch").css({"height":homeHeight+"px"});
+	$("#aboutPriest").css({"height":homeHeight+"px"});
+	//$("#churchTab").css({"position":"relative","top":homeHeight/3.3+"px"});
 	jQuery("body").niceScroll({
 		cursorcolor:"#333",
 		cursorborder:"0px",
